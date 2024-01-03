@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>JS Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>Arquitech - Arquitetura Tecnológica</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="container__conteudo">
-            <img src="./img/robot.png" alt="robô mergulhador" class="container__imagem-robo" />
-            <div class="container__informacoes">
-                <img src="./img/trophy.png" alt="ícone de um troféu" />
-                 <div class="container__texto">
-                    <h1>Você <span class="container__texto-azul">acertou!</span></h1>
-                    <h2>Você descobriu o número secreto!</h2>
-                </div>
-            </div>
+    <div id="top">
+        <h1>Tradição em projetos de arquitetura</h1>
+        <p>Arquitetura residencial e comercial. </p>
+    </div>
+    <div id="infoadicional">
+        <p><b>850</b><br>empreendimentos construídos</p>
+        <p><b>40</b><br>anos de mercado e experiência</p>
+        <p><b>2,000,000m²</b><br>em projetos construídos</p>
+    </div>
+    <div id="conteudo">
+        <div id="inforativo">
+            <h2>Arquitetos com História e Experiência.</h2>
+            <p>
+                Nós realizamos desde 2002 projetos e gerenciamento de obras.
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal
+                proposta transformar em realidade os sonhos de seus clientes,
+                criando projetos personalizados, unindo a tradição e a modernidade em nossos
+                projetos.
+            </p>
+        </div>
+        <img src="images/img01.svg" alt="">
+    </div>
+    <div id="contcontato">
+        <h2>Conheça mais sobre nossos serviços:</h2>
+        <div id="contform">
+            <form action="https://api.sheetmonkey.io/form/jKRJL5tnzofg37PmrBQD91" method="post">
+                <input type="text" name="Name" required placeholder="Informe seu Nome"><br>
+                <input type="email" name="Email" required placeholder="Informe seu Email"><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit" >Fale Conosco</button>
+            </form>
         </div>
     </div>
-    <script src="app.js" defer></script>
+    <script src="index.js"></script>
 </body>
-
 </html>
